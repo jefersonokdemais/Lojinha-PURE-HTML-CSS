@@ -5,6 +5,17 @@ body{
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
 }
 
 .barra-superior{
@@ -17,10 +28,8 @@ body{
 }
 
 h1{
-    
-    margin-left: 2%;
-    margin-right: 60%;
     font-size: 24px;
+    margin-left: 9px;
 }
 
 main{
