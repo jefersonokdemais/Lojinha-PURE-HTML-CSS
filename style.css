@@ -1,4 +1,84 @@
-\\ main{
-\\    background-color: #000;
-\\    color: #fff;
-\\ }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+body{
+    font-family:  'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mini-container{
+    height: 373px;
+    width: 300px;
+    margin-top: 18px;
+    background-color: blue;
+}
+
+.img-container{
+    height: 159px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.descricao-container{
+    height: 215px;
+    background-color: #ffffff;
+    border: 2px solid #f5f5f5;
+}
+
+.box-filtro{
+    height: 26px;
+    width: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    background-color: #2E245E;
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.box1{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 154px;
+    width: 296px;
+    background-color: #f5f5f5;
+}
+
+img{
+    display: block;
+    top: auto;
+    left: auto;
+    max-width: 100%;
+    max-height: 80%;
+
+}
+
+.barra-superior{
+    
+    display: flex;
+    flex-direction: row;
+    background-color: #F5F5F5;
+    height: 70px;
+    width: 1603px;
+
+}
+
+.container{
+    border: 1px solid black;
+    display: flex;
+    max-width: 300px;
+    max-height: 380px; 
+    align-items: center; -->
+}
+
+
