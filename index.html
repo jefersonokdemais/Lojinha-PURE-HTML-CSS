@@ -1,115 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Capstone</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <header class="barra-superior">
-            <h1>Weartake</h1>
-            <nav>
-                <p class="filter">Todos</p>
-                <p class="filter">Acessórios</p>
-                <p class="filter">Calçados</p>
-                <p class="filter">Camisetas</p>
-            </nav>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="barra-superior">
+      <div class="header">
+        <h1>Weartake</h1>
+        <nav>
+          <button class="filter">Todos</button>
+          <button class="filter">Acessórios</button>
+          <button class="filter">Calçados</button>
+          <button class="filter">Camisetas</button>
+        </nav>
+      </div>
+    </header>
 
-        <main>
-            <div class="vitrine">
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./jaqueta1.png" alt="Jaqueta moletom preta">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Camisetas</div>
-                        <h3>Jaqueta Moletom</h3>
-                        <p>Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...</p>
-                        <p class="price">R$ 100,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./gorro2.png" alt="Gorro de algodão preto">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Acessórios</div>
-                        <h3>Gorro de Algodão</h3>
-                        <p>O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...</p>
-                        <p class="price">R$ 100,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./mascara3.png" alt="Máscara de proteção">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Acessórios</div>
-                        <h3>Máscara de Proteção</h3>
-                        <p>Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...</p>
-                        <p class="price">R$ 40,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./camiseta4.png" alt="Camiseta masculina básica preta">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Camisetas</div>
-                        <h3>Camiseta Basic Black</h3>
-                        <p>Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...</p>
-                        <p class="price">R$ 100,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./camiseta_white5.png" alt="Camiseta masculina básica branca">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Camisetas</div>
-                        <h3>Camiseta Basic White</h3>
-                        <p>Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...</p>
-                        <p class="price">R$ 100,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-container">
-                        <img src="./jaqueta_embalavel6.png" alt="Jaqueta preta impermeável">
-                    </div>
-                    <div class="descricao-container">
-                        <div class="box-filtro">Camisetas</div>
-                        <h3>Jaqueta Black de Chuva </h3>
-                        <p>Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliéster...</p>
-                        <p class="price">R$ 100,00</p>
-                        <p>Adicionar ao carrinho</p>
-                    </div>
-                </div>
-            </div>
-                <aside class="carrinho-compra">
-                    <form action="/pagina-processa-dados-do-form" method="post">
-                        <input class="caixaPesquisa" type="text" placeholder="Digite aqui sua pesquisa" />
-                        <button type="button" class="buttonPesquisar">Pesquisar</button> 
-                    </form>
-                
-                    <div id="box-car">
-                        <h3 id="text-car">Carrinho de Compras</h3>
-                          
-                    </div>
-                    <div class="carrinhoLista">
-                        <h5>Carrinho Vazio</h5>
-                        <p>Adicione Itens</p>
-                    </div>    
-                </aside>
-        </main>
-        
-        <script src="./script.js"></script>   
-    </body>
+    <main>
+      <div class="vitrine">
+        <div class="card">
+          <div class="img-container">
+            <img src="./jaqueta1.png" alt="Jaqueta moletom preta" />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Camisetas</div>
+            <h3>Jaqueta Moletom</h3>
+            <p>
+              Adicione um pouco de energia ao seu guarda-roupa de inverno com
+              esta jaqueta vibrante...
+            </p>
+            <p class="price">R$ 100,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="./gorro2.png" alt="Gorro de algodão preto" />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Acessórios</div>
+            <h3>Gorro de Algodão</h3>
+            <p>
+              O gorro Next.js chegou! Esta beldade bordada tem um ajuste
+              confortável que garante que...
+            </p>
+            <p class="price">R$ 100,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="./mascara3.png" alt="Máscara de proteção" />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Acessórios</div>
+            <h3>Máscara de Proteção</h3>
+            <p>
+              Esta máscara facial durável é feita de duas camadas de tecido
+              tratado e possui presilhas...
+            </p>
+            <p class="price">R$ 40,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img src="./camiseta4.png" alt="Camiseta masculina básica preta" />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Camisetas</div>
+            <h3>Camiseta Basic Black</h3>
+            <p>
+              Esta t-shirt é imprescindível no seu guarda-roupa, combinando o
+              caimento intemporal de...
+            </p>
+            <p class="price">R$ 100,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img
+              src="./camiseta_white5.png"
+              alt="Camiseta masculina básica branca"
+            />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Camisetas</div>
+            <h3>Camiseta Basic White</h3>
+            <p>
+              Agora você encontrou a camiseta básica do seu guarda-roupa. É
+              feito de um mais grosso...
+            </p>
+            <p class="price">R$ 100,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-container">
+            <img
+              src="./jaqueta_embalavel6.png"
+              alt="Jaqueta preta impermeável"
+            />
+          </div>
+          <div class="descricao-container">
+            <div class="box-filtro">Camisetas</div>
+            <h3>Jaqueta Black de Chuva</h3>
+            <p>
+              Proteja-se dos elementos com esta jaqueta embalável Champion. Esta
+              jaqueta de poliéster...
+            </p>
+            <p class="price">R$ 100,00</p>
+            <button>Adicionar ao carrinho</button>
+          </div>
+        </div>
+      </div>
+      <aside class="carrinho-compra">
+        <form action="/pagina-processa-dados-do-form" method="post">
+          <input
+            class="caixaPesquisa"
+            type="text"
+            placeholder="Digite aqui sua pesquisa"
+          />
+          <button type="button" class="buttonPesquisar">Pesquisar</button>
+        </form>
+
+        <div id="box-car">
+          <h3 id="text-car">Carrinho de Compras</h3>
+        </div>
+        <div class="carrinhoLista">
+          <h5>Carrinho Vazio</h5>
+          <p>Adicione Itens</p>
+        </div>
+      </aside>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
